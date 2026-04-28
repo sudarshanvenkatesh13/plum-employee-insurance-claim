@@ -1,6 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-plum-50: #f7f3ff;
+  --color-plum-100: #eee3ff;
+  --color-plum-500: #7c3aed;
+  --color-plum-600: #6d28d9;
+  --color-plum-900: #2e1065;
+  --shadow-glow: 0 24px 80px rgba(124, 58, 237, 0.18);
+}
 
 :root {
   color-scheme: light;
